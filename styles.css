@@ -1,8 +1,42 @@
-/*  your css code here. If applicable */
-    .middle { width: 90%; margin: 0 auto; }
-    table { border: 1px solid black; border-spacing: 1px; }
-    table td, table th { border: 1px solid black; padding: 1px; }
-    .center td { text-align: center; }
-    td.right { text-align: right; }
-    .green { background-color: green; height: 24px; }
-    .blue  { background-color: blue;  height: 24px; }
+.middle {
+  width: 90%;
+  margin: 0 auto;
+}
+
+table {
+  border: 1px solid black;
+  border-spacing: 1px;
+}
+
+table td, table th {
+  border: 1px solid black;
+  padding: 1px;
+}
+
+.center td {
+  text-align: center;
+}
+
+td.right {
+  text-align: right;
+}
+
+.green {
+  background-color: green;
+  height: 24px;
+}
+
+.blue {
+  background-color: blue;
+  height: 24px;
+}
+
+.tall-table td {
+  height: 35px;      /* make table 2 rows taller */
+}
+
+.image-cell {
+  vertical-align: middle;
+  text-align: center;
+  height: 350px;     /* adjust for your image height */
+}
